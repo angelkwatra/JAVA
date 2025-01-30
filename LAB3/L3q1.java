@@ -5,9 +5,9 @@ class L3q1 {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        for (int num : nums) {
-            if (num < min) min = num;
-            if (num > max) max = num;
+        for (int i=0;i<nums.length;i++) {
+            if (nums[i] < min) min = nums[i];
+            if (nums[i] > max) max = nums[i];
         }
         return new int[]{max, min};
     }
