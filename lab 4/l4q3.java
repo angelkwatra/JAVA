@@ -1,5 +1,5 @@
 class Club {
-    static String clubName = "Tech Club";
+    static String clubName = "Coding Club";
     
     String memberName;
 
@@ -19,8 +19,8 @@ class Club {
 public class l4q3{
     public static void main(String[] args) {
         Club.displayClubName();
-        Club member1 = new Club("Alice");
-        Club member2 = new Club("Bob");
+        Club member1 = new Club("Angel");
+        Club member2 = new Club("Nakul");
         member1.displayMember();
         member2.displayMember();
     }
