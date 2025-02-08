@@ -1,0 +1,7 @@
+These codes here are demonstrating object-oriented programming (OOP) concepts such as:
+
+1. Encapsulation & Access Modifiers (Private members in inheritance)
+2. Class Design & Inheritance (Employee & Manager classes)
+3. Multilevel Inheritance & Polymorphism (University management system)
+4. Abstraction & Method Overriding (Vehicle & Car classes)
+5. Runtime Polymorphism (Restaurant management system with different chefs)
