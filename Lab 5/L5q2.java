@@ -45,13 +45,13 @@ class Manager extends Employee {
 
 public class L5q2 {
     public static void main(String[] args) {
-        Employee emp = new Employee("Angel Kwatra", 1, 5000000);
+        Employee emp = new Employee("Angel Kwatra", 1, 500000);
         System.out.println("Employee Name: " + emp.getName());
         System.out.println("Employee Salary: " + emp.getSalary());
         emp.increaseSalary(10);
         System.out.println("Updated Salary: " + emp.getSalary());
 
-        Manager mgr = new Manager("Nakul Yadav", 21, 7000000, "IT");
+        Manager mgr = new Manager("Nakul Yadav", 10, 7000000, "IT");
         System.out.println("Manager Name: " + mgr.getName());
         System.out.println("Manager Salary: " + mgr.getSalary());
         System.out.println("Manager Department: " + mgr.getDepartment());
