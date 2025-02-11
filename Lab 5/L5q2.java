@@ -3,7 +3,7 @@ class Employee {
     private int empid;
     private double salary;
 
-    public Employee() {
+   public Employee() {
         this.name = "xyz";
         this.empid = 0;
         this.salary = 0.0;
