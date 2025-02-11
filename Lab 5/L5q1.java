@@ -1,21 +1,33 @@
-class SuperClass {
-    private int Number = 42; 
-    public int getNumber() {
-        return Number;
+class Animal{
+    int age;
+    private String name;
+    public Animal(int age,String name){
+        this.age=age;
+        this.name = name;
     }
-}
+   
+    public String getname(){
+        return name;
+    }
 
-class SubClass extends SuperClass {
-    public void display() {
-        // System.out.println("Private variable: " + Number); Can't Access directly from Private variable 
+}
+class dog extends Animal{
+    String breed;
+
+    public dog(int age, String name,String breed) {
+        super(age,name);
+        this.breed=breed;
         
-        System.out.println("Private variable accessed using getter is: " + getNumber());
     }
+    
 }
 
-public class L5q1 {
-    public static void main(String[] args) {
-        SubClass obj = new SubClass();
-        obj.display();
-    }
+public class l5q1{
+public static void main(String[] args){
+   dog d= new dog(5,"kutta","xyz");
+   System.out.println(d.getname());
+   System.out.println(d.age);
+   
+
+}
 }
