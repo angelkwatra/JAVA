@@ -2,8 +2,8 @@ abstract class Vehicle {
     protected String company;
     protected String model;
 
-    public Vehicle(String make, String model) {
-        this.company = make;
+    public Vehicle(String company, String model) {
+        this.company = company;
         this.model = model;
     }
 
